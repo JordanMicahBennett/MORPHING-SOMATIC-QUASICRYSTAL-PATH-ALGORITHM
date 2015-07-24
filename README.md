@@ -15,6 +15,7 @@ MSQNN essentially generalizes microcosmic behaviour ([specific-sample : electron
 
 
 
+
 OVERVIEW? 
 ============================================
 Quintessentially, quasicrystals occur midst nature as multi-dimensional, semiregular uniform n-polytope hypercubic voluminous structures.
