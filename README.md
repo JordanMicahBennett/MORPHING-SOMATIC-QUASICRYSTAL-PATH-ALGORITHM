@@ -6,10 +6,11 @@
 
 
 
-
 LEMMA? 
 ============================================
 MSQNN essentially generalizes microcosmic behaviour ([specific-sample : electron diffraction fields encompass highly low-time-complex events]), vis a vis macrocosm in orthogonalized quasicrystalline variations (themselves, fundamentally, electron diffraction patterns), abound tri dimensional graph-search scenarios.
+
+
 
 
 
@@ -48,4 +49,4 @@ Such a whole is accessible here: http://www.manufacturedmind.grn.cc/
 
 AUTHOR PORTFOLIO
 ============================================
-http://jordanbennett.2fh.co/ 
+http://folioverse.appspot.com/
