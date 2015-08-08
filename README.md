@@ -42,7 +42,7 @@ Four core c-sharp classes produce the quasicrystalline based locomotion phenomen
 COMPLETE SOURCE CODE?
 ============================================
 The source documents provided here are partial, manifesting as tranche of a quite huger whole.
-Such a whole is accessible here: manufactured-mind.appspot.com
+Such a whole is accessible here: http://manufactured-mind.appspot.com/
 
 
 
