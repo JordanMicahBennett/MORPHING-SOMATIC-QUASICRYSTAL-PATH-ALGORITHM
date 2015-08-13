@@ -27,6 +27,7 @@ M.S.Q N.N - Morphing (expansive/contractive), non-abstract, non-hierarchical (so
 
 
 
+
 CODE?
 ============================================
 So as to compose the quasicrystalline algorithm, I had first stipulated an algorithm to flatten the naturally voluminous hypercube measure polytope, into an orthogonalized (bi-dimensional) petrie polygon, of patterns.
