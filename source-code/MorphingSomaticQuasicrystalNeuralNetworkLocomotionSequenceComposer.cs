@@ -4,17 +4,17 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-public class MorphingSomaticQuasicrystalNueralNetworkLocomotionSequenceComposer : MonoBehaviour 
+public class MorphingSomaticQuasicrystalNeuralNetworkLocomotionSequenceComposer : MonoBehaviour 
 {
 	private MorphingSomaticQuasicrystalNeuralNetworkDiffractionPatternFieldGenerator fieldGenerator; 
-	private MorphingSomaticQuasicrystalNeuralNetwork nueralNetwork; 
+	private MorphingSomaticQuasicrystalNeuralNetwork neuralNetwork; 
 	public List <Vector3> QUASICRYSTAL_POLYGON_FLAG; //discovered nodes {that all compose a single quasicrystal flag}
 	public GameObject FRUSTUM; 
 
 	public void Awake ( )
 	{
 		fieldGenerator = GameObject.FindGameObjectWithTag ( Tags.gameController ).GetComponent <MorphingSomaticQuasicrystalNeuralNetworkDiffractionPatternFieldGenerator> ( );
-		nueralNetwork = GameObject.FindGameObjectWithTag ( Tags.gameController ).GetComponent <MorphingSomaticQuasicrystalNeuralNetwork> ( );
+		neuralNetwork = GameObject.FindGameObjectWithTag ( Tags.gameController ).GetComponent <MorphingSomaticQuasicrystalNeuralNetwork> ( );
 
 		QUASICRYSTAL_POLYGON_FLAG = new List <Vector3> ( );
 	}

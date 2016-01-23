@@ -99,20 +99,20 @@ public class MorphingSomaticQuasicrystalNeuralNetwork : MonoBehaviour
 			outwardFrustaRotation += outwardFrustaRotationDisplacementFactor * CLUSTER_CARDINALITY;
 
 			//each frustum has it's own generated flag!
-			//these are populated midst MorphingSomaticQuasicrystalNueralNetworkLocomotionSequenceComposer
-				//add MorphingSomaticQuasicrystalNueralNetworkLocomotionSequenceComposer, so as to enable locomotion sequence construction.
+			//these are populated midst MorphingSomaticQuasicrystalNeuralNetworkLocomotionSequenceComposer
+				//add MorphingSomaticQuasicrystalNeuralNetworkLocomotionSequenceComposer, so as to enable locomotion sequence construction.
 				//the added script utilizes collison bounds routines to detect rather msq nn field nodes are within
 				//the bounds of any agent frustum. If so, the aforsaid script automatically generates a List of <Vector3> elements, that
 				//consists of the accumilation of vectors found.
-				FRUSTA [ A ].AddComponent ( "MorphingSomaticQuasicrystalNueralNetworkLocomotionSequenceComposer" );
+				FRUSTA [ A ].AddComponent ( "MorphingSomaticQuasicrystalNeuralNetworkLocomotionSequenceComposer" );
 				//then establish frustum object to offset collision check, to fulfill somatic traversal node set construction
-				FRUSTA [ A ].GetComponent <MorphingSomaticQuasicrystalNueralNetworkLocomotionSequenceComposer> ( ).establishFrustum ( FRUSTA [ A ] );
+				FRUSTA [ A ].GetComponent <MorphingSomaticQuasicrystalNeuralNetworkLocomotionSequenceComposer> ( ).establishFrustum ( FRUSTA [ A ] );
 				//then alter the discovered node set par sequence composer, such that x and z components are maintained, but y components are toggled 
 				//to default y set generated here {for valid y position = any cluster unit's y configuration}
-				for ( int V = 0; V < FRUSTA [ A ].GetComponent <MorphingSomaticQuasicrystalNueralNetworkLocomotionSequenceComposer> ( ).QUASICRYSTAL_POLYGON_FLAG.Count; V ++ )
+				for ( int V = 0; V < FRUSTA [ A ].GetComponent <MorphingSomaticQuasicrystalNeuralNetworkLocomotionSequenceComposer> ( ).QUASICRYSTAL_POLYGON_FLAG.Count; V ++ )
 				{
-					Vector3 sequenceComposerVector = FRUSTA [ A ].GetComponent <MorphingSomaticQuasicrystalNueralNetworkLocomotionSequenceComposer> ( ).QUASICRYSTAL_POLYGON_FLAG [ V ];
-					FRUSTA [ A ].GetComponent <MorphingSomaticQuasicrystalNueralNetworkLocomotionSequenceComposer> ( ).QUASICRYSTAL_POLYGON_FLAG [ V ].Set ( sequenceComposerVector.x, CLUSTER [ 0 ].transform.position.y, sequenceComposerVector.z );
+					Vector3 sequenceComposerVector = FRUSTA [ A ].GetComponent <MorphingSomaticQuasicrystalNeuralNetworkLocomotionSequenceComposer> ( ).QUASICRYSTAL_POLYGON_FLAG [ V ];
+					FRUSTA [ A ].GetComponent <MorphingSomaticQuasicrystalNeuralNetworkLocomotionSequenceComposer> ( ).QUASICRYSTAL_POLYGON_FLAG [ V ].Set ( sequenceComposerVector.x, CLUSTER [ 0 ].transform.position.y, sequenceComposerVector.z );
 				}
 		}
 
@@ -149,7 +149,7 @@ public class MorphingSomaticQuasicrystalNeuralNetwork : MonoBehaviour
 			{
 				if ( !contractionQuery )
 				{
-					MorphingSomaticQuasicrystalNueralNetworkLocomotionSequenceComposer expandingSequenceComposer = FRUSTA [ A ].GetComponent <MorphingSomaticQuasicrystalNueralNetworkLocomotionSequenceComposer> ( );
+					MorphingSomaticQuasicrystalNeuralNetworkLocomotionSequenceComposer expandingSequenceComposer = FRUSTA [ A ].GetComponent <MorphingSomaticQuasicrystalNeuralNetworkLocomotionSequenceComposer> ( );
 
 					if ( expandingSequenceComposer != null )
 					{
@@ -167,7 +167,7 @@ public class MorphingSomaticQuasicrystalNeuralNetwork : MonoBehaviour
 			//expanse/contraction determinism
 			if ( CLUSTER [ A ].GetComponent <Animator> ( ).GetBool ( "Scanning" ) )
 			{
-				MorphingSomaticQuasicrystalNueralNetworkLocomotionSequenceComposer bluntSequenceComposer = FRUSTA [ A ].GetComponent <MorphingSomaticQuasicrystalNueralNetworkLocomotionSequenceComposer> ( );
+				MorphingSomaticQuasicrystalNeuralNetworkLocomotionSequenceComposer bluntSequenceComposer = FRUSTA [ A ].GetComponent <MorphingSomaticQuasicrystalNeuralNetworkLocomotionSequenceComposer> ( );
 
 				print ( "contractionQuery >>> " + contractionQuery + " _CLUSTER >>>" + CLUSTER [ A ].transform.position.z  + "   _QUASICRYSTAL_POLYGON_FLAG >>>" + ( bluntSequenceComposer.QUASICRYSTAL_POLYGON_FLAG [ 0 ].z - AREA_TRAVERSAL_LIMIT_PADDING ) );
 				if ( CLUSTER [ A ].transform.position.z >= ( bluntSequenceComposer.QUASICRYSTAL_POLYGON_FLAG [ 0 ].z - AREA_TRAVERSAL_LIMIT_PADDING ) )
@@ -181,7 +181,7 @@ public class MorphingSomaticQuasicrystalNeuralNetwork : MonoBehaviour
 			{
 				if ( contractionQuery )
 				{
-					MorphingSomaticQuasicrystalNueralNetworkLocomotionSequenceComposer contractingSequenceComposer = FRUSTA [ A ].GetComponent <MorphingSomaticQuasicrystalNueralNetworkLocomotionSequenceComposer> ( );
+					MorphingSomaticQuasicrystalNeuralNetworkLocomotionSequenceComposer contractingSequenceComposer = FRUSTA [ A ].GetComponent <MorphingSomaticQuasicrystalNeuralNetworkLocomotionSequenceComposer> ( );
 					
 					if ( contractingSequenceComposer != null )
 					{
