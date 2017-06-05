@@ -7,14 +7,14 @@ using System.Collections.Generic;
 public class MorphingSomaticQuasicrystalPathAlgorithmLocomotionSequenceComposer : MonoBehaviour 
 {
 	private MorphingSomaticQuasicrystalPathAlgorithmDiffractionPatternFieldGenerator fieldGenerator; 
-	private MorphingSomaticQuasicrystalPathAlgorithm neuralNetwork; 
+	private MorphingSomaticQuasicrystalPathAlgorithm model; 
 	public List <Vector3> QUASICRYSTAL_POLYGON_FLAG; //discovered nodes {that all compose a single quasicrystal flag}
 	public GameObject FRUSTUM; 
 
 	public void Awake ( )
 	{
 		fieldGenerator = GameObject.FindGameObjectWithTag ( Tags.gameController ).GetComponent <MorphingSomaticQuasicrystalPathAlgorithmDiffractionPatternFieldGenerator> ( );
-		neuralNetwork = GameObject.FindGameObjectWithTag ( Tags.gameController ).GetComponent <MorphingSomaticQuasicrystalPathAlgorithm> ( );
+		model = GameObject.FindGameObjectWithTag ( Tags.gameController ).GetComponent <MorphingSomaticQuasicrystalPathAlgorithm> ( );
 
 		QUASICRYSTAL_POLYGON_FLAG = new List <Vector3> ( );
 	}

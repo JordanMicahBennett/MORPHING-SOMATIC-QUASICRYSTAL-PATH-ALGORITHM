@@ -10,15 +10,15 @@ using System.Diagnostics;
 public class MorphingSomaticQuasicrystalPathAlgorithmGenerator : MonoBehaviour 
 {
 	private MorphingSomaticQuasicrystalPathAlgorithmDiffractionPatternFieldGenerator fieldGenerator; 
-	private MorphingSomaticQuasicrystalPathAlgorithm neuralNetwork;
+	private MorphingSomaticQuasicrystalPathAlgorithm model;
 
 
 	void Awake  (   ) 
 	{
 		fieldGenerator = GameObject.FindGameObjectWithTag ( Tags.gameController ).GetComponent <MorphingSomaticQuasicrystalPathAlgorithmDiffractionPatternFieldGenerator> ( );
-		neuralNetwork = GameObject.FindGameObjectWithTag ( Tags.gameController ).GetComponent <MorphingSomaticQuasicrystalPathAlgorithm> ( );
+		model = GameObject.FindGameObjectWithTag ( Tags.gameController ).GetComponent <MorphingSomaticQuasicrystalPathAlgorithm> ( );
 
 		//establish agents, by providing center, and spacing
-		neuralNetwork.establishAgents ( new Vector3 ( 617f, 0f, 217f ), 10f, 15f );
+		model.establishAgents ( new Vector3 ( 617f, 0f, 217f ), 10f, 15f );
 	}
 }

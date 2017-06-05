@@ -21,8 +21,8 @@ Quintessentially, quasicrystals occur midst nature as multi-dimensional, semireg
 The core algorithm is dynamic, as such is able to produce n-sized polygons stemming from tesseract to octeract petrie polygon projection, so as to gracefully collapse n dimensional existences into ones of orthographic nature.
 
 Different n-sized polygon projections yield multifarious AI path grid pattern configurations.
-This orthographic resulting manifest's as M.S.Q N.N's base blueprint AI path network\electron diffraction pattern. It is this condensed electron diffraction pattern nodal collection that is compacted to compose projected path sequences.
-M.S.Q N.N - Morphing (expansive/contractive), non-abstract, non-hierarchical (somatic) n fold orthographic quasicrystal-structured neural network scan behaviour pattern algorithm manifests as a new type of tri dimensional artificial intelligence scan behaviour path pattern algorithm.
+This orthographic resulting manifest's as M.S.Q P.A's base blueprint AI path network\electron diffraction pattern. It is this condensed electron diffraction pattern nodal collection that is compacted to compose projected path sequences.
+M.S.Q P.A - Morphing (expansive/contractive), non-abstract, non-hierarchical (somatic) n fold orthographic quasicrystal-structured path algorithm scan behaviour pattern algorithm manifests as a new type of tri dimensional artificial intelligence scan behaviour path pattern algorithm.
 
 
 
