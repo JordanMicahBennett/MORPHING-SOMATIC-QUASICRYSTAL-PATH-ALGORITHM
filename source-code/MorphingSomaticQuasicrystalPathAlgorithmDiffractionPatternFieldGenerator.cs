@@ -1,7 +1,8 @@
-//Author  >> Jordan Micah Bennett  (  manufactured mind  ( c )  2014  ) 
+//Author Data >> Scratch written by Jordan Micah Bennett  (  manufactured mind  ( c )  2014  ) 
 //Author Notes 0 >> Comments indicate details regarding the scope of information gathered [See 'Author Notes 2'], thereafter being applied in 'MorphingSomaticQuasicrystalPathAlgorithmDiffractionPatternFieldGenerator'.
 //Author Notes 1 >> This is based on a n dimensional petrie polygon / orthogonalized hypercube (range(tesseract TO dekeract))
-//Author Notes 2 >> Credits --> wikipedia users : TomRuen, Jgmoxness, Claudio Rochhini for quasicrystalline petrie polygon measure polytope information.
+//Author Notes 2 >> Credits --> wikipedia users : TomRuen, Jgmoxness, Claudio Rochhini for quasicrystalline petrie polygon measure polytope coordinates. (See the 2 comments regarding coordinates).
+
 
 using UnityEngine;
 using System;
@@ -75,6 +76,8 @@ public class MorphingSomaticQuasicrystalPathAlgorithmDiffractionPatternFieldGene
 
 		string [ ] horizontal_projection_vector_scalars = 
 		{
+			////////////////////////////////////////////////////
+			//NOTE: These coordinates were provided by wiki users.
 			/*tesseract*/"0.270598050073,0.653281482438,0.653281482438,0.270598050073",
 			/*penteract*/"0.195439507585,0.511667273602,0.632455532034,0.511667273602,0.195439507585",
 			/*hexeract*/"0.149429245361,0.408248290464,0.557677535825,0.557677535825,0.408248290464,0.149429245361",
@@ -86,6 +89,8 @@ public class MorphingSomaticQuasicrystalPathAlgorithmDiffractionPatternFieldGene
 
 		string [ ] vertical_projection_vector_scalars =
 		{
+			////////////////////////////////////////////////////
+			//NOTE: These coordinates were provided by wiki users.
 			/*tesseract*/"-0.653281482438,-0.270598050073,0.270598050073,0.653281482438",
 			/*penteract*/"-0.601500955008,-0.371748034460,0.000000000000,0.371748034460,0.601500955008",
 			/*hexeract*/"-0.557677535825,-0.408248290464,-0.149429245361,0.149429245361,0.408248290464,0.557677535825",
@@ -96,8 +101,8 @@ public class MorphingSomaticQuasicrystalPathAlgorithmDiffractionPatternFieldGene
 		};
 		
 
-		//establish petrie polygon coxeter dynkin pre-baked depth vector direction scalars
-		//we just distribute it z-wise appropriately per desired region.
+		//Establish petrie polygon coxeter dynkin pre-baked depth vector direction scalars
+		//I just distribute it z-wise appropriately per desired region.
 
 		double [ ] HORIZONTAL_VECTORS = new double [ VERTEX_CARDINALITY ] ; 
 		double [ ] VERTICAL_VECTORS = new double [ VERTEX_CARDINALITY ] ; 
