@@ -55,7 +55,7 @@ public class MorphingSomaticQuasicrystalPathAlgorithm : MonoBehaviour
 
 	public void establishAgents ( Vector3 center, float clusterSpacing, float frustumSpacing )
 	{
-		//we appropriately situate our agents ( antagonists ) midst origin our morphing quasicrystal based field.
+		//I appropriately situate my agents ( antagonists ) midst origin our morphing quasicrystal based field.
 		//our loops limit ends @ somewhere midst the origin of our field, bounded in agent's cardinality
 		INITIAL_CLUSTER_VECTOR_GROUP = new GameUtilities ( ).getCircularVectorCollection ( center, clusterSpacing, CLUSTER_CARDINALITY );
 		INITIAL_FRUSTA_VECTOR_GROUP = new GameUtilities ( ).getCircularVectorCollection ( center, frustumSpacing, CLUSTER_CARDINALITY );
