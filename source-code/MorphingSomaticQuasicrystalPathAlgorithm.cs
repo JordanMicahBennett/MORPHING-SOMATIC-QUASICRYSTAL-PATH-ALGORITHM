@@ -55,8 +55,8 @@ public class MorphingSomaticQuasicrystalPathAlgorithm : MonoBehaviour
 
 	public void establishAgents ( Vector3 center, float clusterSpacing, float frustumSpacing )
 	{
-		//I appropriately situate my agents ( antagonists ) midst origin our morphing quasicrystal based field.
-		//our loops limit ends @ somewhere midst the origin of our field, bounded in agent's cardinality
+		//I appropriately situate my agents ( antagonists ) midst origin my morphing quasicrystal based field.
+		//my loop limit ends @ somewhere midst the origin of my field, bounded in agent's cardinality
 		INITIAL_CLUSTER_VECTOR_GROUP = new GameUtilities ( ).getCircularVectorCollection ( center, clusterSpacing, CLUSTER_CARDINALITY );
 		INITIAL_FRUSTA_VECTOR_GROUP = new GameUtilities ( ).getCircularVectorCollection ( center, frustumSpacing, CLUSTER_CARDINALITY );
 
@@ -91,7 +91,7 @@ public class MorphingSomaticQuasicrystalPathAlgorithm : MonoBehaviour
 
 			FRUSTA [ A ].transform.localEulerAngles = new Vector3 ( 0f, outwardFrustaRotation, 0f );
 
-			//fixed position adjustment. The system is dynamic albeit, however, this fixes each frustum midst our agent posisition wise a certain manner, such that it spans
+			//fixed position adjustment. The system is dynamic albeit, however, this fixes each frustum midst my agent position wise a certain manner, such that it spans
 			//outwards upon the quaisicrystal field.
 			//need to extend to make this even more dyanamic, by accepting 'spans' and manipulating here appropriately, wrt to such span input.
 			FRUSTA [ A ].transform.Translate ( new Vector3 ( 0f, 0f, 60f ) );
