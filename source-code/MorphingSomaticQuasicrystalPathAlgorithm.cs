@@ -1,4 +1,4 @@
-//Author >> Jordan Micah Bennett  (  manufactured mind  ( c )  2014  ) 
+//Author Data >> Scratch written by Jordan Micah Bennett  (  manufactured mind  ( c )  2014  ) 
 
 
 using UnityEngine;
